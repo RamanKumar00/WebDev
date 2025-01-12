@@ -1,0 +1,91 @@
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #e6f7ff; /* Soft background color */
+}
+
+
+.lab-box {
+	border: 3px solid blue;
+	background-color: #f0f0f0;
+	width: 250px;
+	height: 120px;
+	text-align: center;
+	line-height: 120px; /* Center text vertically */
+	font-size: 24px;
+	font-weight: bold;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+/* Do's and Don'ts Section */
+.dos-donts {
+	background-color: skyblue;
+	border: 2px solid #000;
+	border-radius: 10px; /* Rounded corners */
+	width: 320px;
+	padding: 20px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dos-donts h2 {
+	text-align: center;
+	color: #000;
+	margin-bottom: 15px;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.dos-donts ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.dos-donts li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	color: #000;
+	font-size: 16px;
+}
+
+.dos-donts li:last-child {
+	border-bottom: none;
+}
+
+.lab-rules {
+	background-color: red;
+	border: 2px solid #000;
+	border-radius: 10px;
+	width: 400px;
+	padding: 20px;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lab-rules h2 {
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.lab-rules p {
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+}
